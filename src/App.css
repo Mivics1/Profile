@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;800&family=Crimson+Text:wght@400;700&family=Libre+Baskerville:wght@400;700&family=Pacifico&family=Raleway:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #54A1E8;
+}
+
+.navbar{
+  background-color: #54A1E8;
+  padding: 1rem;
+  font-family:'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.nav-link, .navbar-brand{
+  color: #fff;
+}
+
+.nav-item{
+  margin-right: 2rem;
+}
+
+.description{
+  margin-top: 5rem;
+}
+
+.description h1{
+  font-size: 3rem;
+}
+
+.description p{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.view{
+  background-color: #fff;
+}
+
+.services img, .aboutMe img{
+  border-radius: 50%;
+  height: 500px;
+  margin-top: 3rem;
+}
